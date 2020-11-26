@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".StartActivity">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <ImageView
+           android:id="@+id/logo"
+           android:layout_width="80dp"
+           android:layout_height="80dp"
+           android:src="@drawable/logo"/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/tagline"
+           android:text="Chào mừng đến với App Chat"
+           android:layout_below="@id/logo"
+           android:textColor="@android:color/white"
+           android:textSize="40dp"
+           android:textAllCaps="true"
+           android:textStyle="bold"
+           android:layout_marginBottom="10dp"/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/tagline_1"
+           android:text="một sản phẩm kết nối cộng đồng"
+           android:layout_below="@id/tagline"
+           android:textColor="@android:color/white"
+           android:textSize="23dp"
+           android:textAllCaps="false"/>
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/login"
+           android:layout_above="@id/register"
+           android:text="Đăng Nhập"
+           android:textAllCaps="false"
+           android:textColor="@android:color/white"
+           android:layout_marginBottom="10dp"
+           android:background="@drawable/shape_login_buttom"/>
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/register"
+           android:layout_alignParentBottom="true"
+           android:text="Đăng Kí"
+           android:textAllCaps="false"
+           android:textColor="@android:color/white"
+           android:background="@drawable/shape_login_buttom"/>
+
+
+   </RelativeLayout>
+
+</RelativeLayout>

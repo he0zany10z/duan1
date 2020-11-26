@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">duan1.3</string>
+    <string name="ch_a_c_t_i_kho_n_t_o_ngay">Chưa có tài khoản? Tạo ngay</string>
+    <string name="ng_xu_t">Đăng xuất</string>
+    <string name="t_i_kho_n_kh_c">Tài Khoản Khác</string>
+    <string name="c_i_t_t_i_kho_n">Cài Đặt Tài Khoản</string>
+    <string name="t_n_ng_nh_p">Tên Đăng Nhập</string>
+</resources>

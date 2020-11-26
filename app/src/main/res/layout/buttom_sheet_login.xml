@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="450dp"
+    android:orientation="vertical"
+    android:background="#000"
+    android:id="@+id/bottum_sheet">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chào Mừng Trở Lại"
+        android:textColor="@android:color/black"
+        android:textSize="30dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng nhập tài khoản của bạn"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mobile"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/shape_edit_text"
+        android:padding="12.5dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:background="@drawable/shape_edit_text"
+        android:padding="12.5dp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/login"
+        android:layout_above="@id/register"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/shape_login_buttom"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quên mật khẩu"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bạn không có tài khoản để đăng nhập"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"/>
+
+</LinearLayout>
